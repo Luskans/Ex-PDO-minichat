@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    height: 80px;
+}
+
+nav {
+    height: 100%;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    width: 20%;
+}
+
+.nav_button button:nth-child(5),
+.nav_button button:nth-child(6),
+.nav_button button:nth-child(7)
+{
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+li a, nav a {
+    color: black;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+section {
+    height: 80vh;
+    width: 100%;
+}
+
+.left, .right{
+    height: 100%;
+}
+
+.left {
+    width: 80%;
+}
+
+.right {
+    width: 20%;
+}
+
+.left-body {
+    height: 80%;
+}
+
+.left-title, .left-form, .right-title {
+    height: 10%;
+}
+
+.right-body {
+    height: 90%;
+}
